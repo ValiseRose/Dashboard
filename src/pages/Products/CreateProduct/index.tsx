@@ -9,7 +9,7 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 
 const CreateProduct = () => {
 
-    document.title = "Create Product | Toner eCommerce + Admin React Template";
+    document.title = "Create New Product | Modav";
 
     const [selectedFiles, setselectedFiles] = useState([]);
 
