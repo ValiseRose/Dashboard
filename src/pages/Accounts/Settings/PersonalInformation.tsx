@@ -41,7 +41,7 @@ const PersonalInformation = () => {
                                 <Col lg={4}>
                                     <div>
                                         <Form.Label htmlFor="birdthdatInput">Joining Date</Form.Label>
-                                        <Flatpickr
+                                        {/* <Flatpickr
                                             className="form-control flatpickr-input"
                                             placeholder='Select Date'
                                             options={{
@@ -49,7 +49,7 @@ const PersonalInformation = () => {
                                                 dateFormat: "d M, Y",
                                                 defaultDate: "24 Nov, 2021"
                                             }}
-                                        />
+                                        /> */}
                                     </div>
                                 </Col>
                                 <Col lg={6}>

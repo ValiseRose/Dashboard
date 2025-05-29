@@ -298,13 +298,13 @@ const OrdersListView = () => {
 
                                         <Col xxl={2} sm={6}>
                                             <div>
-                                                <Flatpickr
+                                                {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select Date'
                                                     options={{
                                                     dateFormat: "d M, Y",
                                                     }}
-                                                />
+                                                /> */}
                                             </div>
                                         </Col>
 
@@ -402,25 +402,25 @@ const OrdersListView = () => {
                                             <Col md={6}>
                                                 <div>
                                                     <Form.Label htmlFor="createdate-field">Order Date</Form.Label>
-                                                    <Flatpickr
+                                                    {/* <Flatpickr
                                                         className="form-control flatpickr-input"
                                                         placeholder='Select Date'
                                                         options={{
                                                             dateFormat: "d M, Y",
                                                         }}
-                                                    />
+                                                    /> */}
                                                 </div>
                                             </Col>
                                             <Col md={6}>
                                                 <div>
                                                     <Form.Label htmlFor="deliverydate-field">Delivery Date</Form.Label>
-                                                    <Flatpickr
+                                                    {/* <Flatpickr
                                                         className="form-control flatpickr-input"
                                                         placeholder='Select Date'
                                                         options={{
                                                             dateFormat: "d M, Y",
                                                         }}
-                                                    />
+                                                    /> */}
                                                 </div>
                                             </Col>
                                         </Row>

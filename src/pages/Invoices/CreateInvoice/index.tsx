@@ -106,13 +106,13 @@ const CreateInvoice = () => {
                                             <Col lg={3} sm={6}>
                                                 <div>
                                                     <Form.Label htmlFor="date-field">Date</Form.Label>
-                                                    <Flatpickr
+                                                    {/* <Flatpickr
                                                         className="form-control flatpickr-input"
                                                         placeholder='Select Date-time'
                                                         options={{
                                                             dateFormat: "d M, Y",
                                                         }}
-                                                    />
+                                                    /> */}
                                                 </div>
                                             </Col>
                                             <Col lg={3} sm={6}>

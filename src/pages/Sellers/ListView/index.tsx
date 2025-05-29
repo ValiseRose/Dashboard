@@ -254,13 +254,13 @@ const SellersListView = () => {
 
                                         <div className="mb-3">
                                             <Form.Label htmlFor="date-field">Create Date</Form.Label>
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select Date-time'
                                                 options={{
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                         </div>
 
                                         <div>

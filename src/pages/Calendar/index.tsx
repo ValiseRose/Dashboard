@@ -509,7 +509,7 @@ const Calendar = () => {
                                 <div className="mb-3">
                                     <Form.Label>Order Date</Form.Label>
                                     <div className={!!isEdit ? "input-group d-none" : "input-group"}>
-                                        <Flatpickr
+                                        {/* <Flatpickr
                                             className="form-control"
                                             data-enable-time
                                             id="event-start-date"
@@ -523,7 +523,7 @@ const Calendar = () => {
                                             onChange={(date: any) => {
                                                 setSelectedNewDay(date);
                                             }}
-                                        />
+                                        /> */}
                                         <span className="input-group-text"> <i className="ri-calendar-event-line"></i> </span>
                                     </div>
                                 </div>

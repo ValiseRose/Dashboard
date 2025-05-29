@@ -73,14 +73,14 @@ const Revenue = () => {
                             <Col xxl={4}>
                                 <div className="d-flex align-items-center gap-3 mb-4 mt-3 mt-xxl-0">
                                     <div className="input-group">
-                                        <Flatpickr
+                                        {/* <Flatpickr
                                             className="form-control flatpickr-input"
                                             options={{
                                                 mode: "range",
                                                 dateFormat: "d M, Y",
                                                 defaultDate: ["01 Jan 2023", "31 Jan 2023"]
                                             }}
-                                        />
+                                        /> */}
                                         <div className="input-group-text bg-primary border-primary text-white">
                                             <i className="ri-calendar-2-line"></i>
                                         </div>

@@ -5,7 +5,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 const ReviewsRating = ({reviews} : any) => {
   return (
     <React.Fragment>
-        <ResponsiveMasonry className="row mx-1" style={{position:"relative", height:"814.125px"}} data-masonry='{"percentPosition": true }' columnsCountBreakPoints={{350: 1, 750: 2, 900: 4}}>
+        {/* <ResponsiveMasonry className="row mx-1" style={{position:"relative", height:"814.125px"}} data-masonry='{"percentPosition": true }' columnsCountBreakPoints={{350: 1, 750: 2, 900: 4}}>
             <Masonry className="col-xxl-3 col-lg-4 col-md-6" style={{position:"absolute", top:"0px", left:"0%"}}>
             {(reviews || []).map((item : any, key : number) => (
                     <Card className='mx-2 my-2' key={key}>
@@ -24,7 +24,7 @@ const ReviewsRating = ({reviews} : any) => {
                     </Card>
             ))}
             </Masonry>
-        </ResponsiveMasonry>
+        </ResponsiveMasonry> */}
     </React.Fragment>
   )
 }

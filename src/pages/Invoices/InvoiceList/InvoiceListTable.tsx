@@ -184,14 +184,14 @@ const InvoiceListTable = () => {
 
                                     <Col xxl={3} sm={4}>
                                         {/* <input type="text" className="form-control bg-light border-light" id="datepicker-range" placeholder="Select date" /> */}
-                                        <Flatpickr
+                                        {/* <Flatpickr
                                             className="form-control bg-light border-light"
                                             placeholder='Select Date'
                                             options={{
                                                 mode: "range",
                                                 dateFormat: "d M, Y",
                                             }}
-                                        />
+                                        /> */}
                                     </Col>
 
                                     <Col xxl={3} sm={4}>
@@ -287,14 +287,14 @@ const InvoiceListTable = () => {
 
                         <div className="mb-3">
                             <Form.Label htmlFor="date-field">Date</Form.Label>
-                            <Flatpickr
+                            {/* <Flatpickr
                                 className="form-control flatpickr-input"
                                 placeholder='Select Date'
                                 options={{
                                     mode: "range",
                                     dateFormat: "d M, Y",
                                 }}
-                            />
+                            /> */}
                         </div>
 
                         <div>

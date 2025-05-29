@@ -192,14 +192,14 @@ const Transactions = () => {
                                             </div>
                                         </Col>
                                         <Col xxl={3} md={6}>
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select Date'
                                                 options={{
                                                     mode: "range",
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                         </Col>
                                         <Col xxl={2} lg={12}>
                                             <select className="form-select" data-choices data-choices-search-false name="choices-single-default" id="idStatus">
@@ -411,13 +411,13 @@ const Transactions = () => {
                                     <Col lg={6}>
                                         <div className="mb-3">
                                             <Form.Label htmlFor="transactionDate-field">Transaction Date</Form.Label>
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select date'
                                                 options={{
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                         </div>
                                     </Col>
                                     <Col lg={6}>

@@ -636,6 +636,79 @@ const CreateProduct = () => {
       </Card.Body>
     </Card>
   );
+  case 'details':
+    return (
+      <Card className="mb-3">
+        <Card.Header>
+          <h5 className="card-title mb-0">Détails supplémentaires</h5>
+        </Card.Header>
+        <Card.Body>
+          <Form.Group className="mb-3">
+            <Form.Label>Ingrédients</Form.Label>
+            <Form.Control as="textarea" rows={2} placeholder="Séparer par des virgules" />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Type de peau</Form.Label>
+            <Form.Select>
+              <option>Grasse</option>
+              <option>Sèche</option>
+              <option>Mixte</option>
+              <option>Sensible</option>
+            </Form.Select>
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Type de cheveux</Form.Label>
+            <Form.Select>
+              <option>Lisse</option>
+              <option>Bouclé</option>
+              <option>Frisé</option>
+              <option>Crépu</option>
+            </Form.Select>
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Utilisation cible</Form.Label>
+            <Form.Control type="text" placeholder="Anti-âge, hydratation, éclaircissant, etc." />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Volume (ml) / Poids (g)</Form.Label>
+            <Form.Control type="text" placeholder="Ex: 50ml, 200g" />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Notes olfactives</Form.Label>
+            <Form.Control type="text" placeholder="Floral, agrumes, boisé, etc." />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Instructions d'utilisation</Form.Label>
+            <Form.Control as="textarea" rows={2} placeholder="Comment utiliser ce produit" />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Avertissements / Précautions</Form.Label>
+            <Form.Control as="textarea" rows={2} placeholder="Ex: éviter le contour des yeux" />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Certifications</Form.Label>
+            <Form.Control type="text" placeholder="Vegan, cruelty-free, bio, etc." />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Pays d'origine</Form.Label>
+            <Form.Control type="text" placeholder="France, Italie, etc." />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Fabricant</Form.Label>
+            <Form.Control type="text" placeholder="Nom du fabricant" />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Date d'expiration</Form.Label>
+            <Form.Control type="date" />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Durée de conservation</Form.Label>
+            <Form.Control type="text" placeholder="Ex: 12 mois après ouverture" />
+          </Form.Group>
+        </Card.Body>
+      </Card>
+    );
+
       default:
         return <p>Choisissez une section à gauche</p>;
     }
@@ -646,8 +719,11 @@ const CreateProduct = () => {
       <div className="page-content">
         <Container fluid>
           <Breadcrumb title="Create Product" pageTitle="Products" />
-          <Row>
-            <Col lg={3}>
+          <Card className='p-2'>
+
+          
+          <Row  >
+            <Col lg={3} >
               <Nav variant="pills" className="flex-column" activeKey={step} onSelect={(k:any) => setStep(k)}>
                 <Nav.Item>
                   <Nav.Link eventKey="general" className="fw-bold fs-5">Général </Nav.Link>
@@ -672,6 +748,7 @@ const CreateProduct = () => {
               </form>
             </Col>
           </Row>
+          </Card>
         </Container>
       </div>
     </React.Fragment>

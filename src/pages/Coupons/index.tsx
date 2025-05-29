@@ -199,25 +199,25 @@ const Coupons = () => {
                                         <div className="mb-3">
                                             <Form.Label htmlFor="startDate">Start Date</Form.Label>
                                             {/* <Form.Control type="text" id="startdate-field" data-provider="flatpickr" data-date-format="d M, Y" placeholder="Select date" required/> */}
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select date'
                                                 options={{
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                         </div>
                                     </Col>
                                     <Col lg={6}>
                                         <div className="mb-3">
                                             <Form.Label htmlFor="endDate">END Date</Form.Label>
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select date'
                                                 options={{
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                         </div>
                                     </Col>
                                     <Col lg={6}>

@@ -129,14 +129,14 @@ const Shipments = () => {
                                 </Col>
                                 <Col xxl={3} lg={6}>
                                     
-                                    <Flatpickr
+                                    {/* <Flatpickr
                                         className="form-control flatpickr-input"
                                         placeholder='Select Date'
                                         options={{
                                             mode: "range",
                                             dateFormat: "d M, Y",
                                         }}
-                                    />
+                                    /> */}
                                 </Col>
                                 <Col xxl={2} lg={6}>
                                     <select className="form-select" data-choices data-choices-search-false name="choices-single-default" id="idStatus">
@@ -219,26 +219,26 @@ const Shipments = () => {
                                     <Col lg={6}>
                                         <div className="mb-3">
                                             <Form.Label htmlFor="orderDate-field">Order Date</Form.Label>
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select Date'
                                                 options={{
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                             {/* <Form.Control type="text" id="orderDate-field" data-provider="flatpickr" data-date-format="d M, Y" placeholder="Select date" required /> */}
                                         </div>
                                     </Col>
                                     <Col lg={6}>
                                         <div className="mb-3">
                                             <Form.Label htmlFor="arrivalDate-field">Arrival Date</Form.Label>
-                                            <Flatpickr
+                                            {/* <Flatpickr
                                                 className="form-control flatpickr-input"
                                                 placeholder='Select Date'
                                                 options={{
                                                     dateFormat: "d M, Y",
                                                 }}
-                                            />
+                                            /> */}
                                             {/* <Form.Control type="text" id="arrivalDate-field" data-provider="flatpickr" data-date-format="d M, Y" placeholder="Select date" required /> */}
                                         </div>
                                     </Col>

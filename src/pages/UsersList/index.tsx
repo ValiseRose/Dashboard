@@ -367,14 +367,14 @@ const UsersList = () => {
 
                                 <div className="mb-3">
                                     <Form.Label htmlFor="date-field">Date</Form.Label>
-                                    <Flatpickr
+                                    {/* <Flatpickr
                                         className="form-control flatpickr-input"
                                         placeholder='Select Date'
                                         options={{
                                             mode: "range",
                                             dateFormat: "d M, Y",
                                         }}
-                                    />
+                                    /> */}
                                 </div>
 
                                 <div>
